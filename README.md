@@ -26,4 +26,12 @@ to update the shortcuts and, finally,
 
 Other shortcuts can be seen in the `gen_lxde_config.py` file.
 
+### Recommendations
 
+The super (windows/W) key is already binded in Lubuntu (LXDE) and can conflict with the implemented shortcuts.
+Hence, is is recommended to either change the shortcuts in the file `gen_lxde_config.py`, or remove the super key from others shorcuts.
+
+### Known issues
+
+- Not releasing the Ctrl and Super key after completing the shortcut will cause a spam of new lines.
+- Performing the shorcut slowly can trigger other unknown shortcuts on the current app.
