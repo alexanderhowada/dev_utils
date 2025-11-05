@@ -1,7 +1,5 @@
-from utils import string_to_cursor
+import pyperclip, pyautogui
 
 
-s = "spark.sql(f\"\"\"\n\n\"\"\").display()"
-string_to_cursor(s)
-
-
+pyperclip.copy('spark.sql(f"""\nSELECT\n*\nFROM {}\n""").display()')
+pyautogui.hotkey('ctrl', 'v')
