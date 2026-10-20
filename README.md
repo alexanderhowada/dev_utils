@@ -31,6 +31,11 @@ Other shortcuts can be seen in the `gen_lxde_config.py` file.
 The super (windows/W) key is already binded in Lubuntu (LXDE) and can conflict with the implemented shortcuts.
 Hence, is is recommended to either change the shortcuts in the file `gen_lxde_config.py`, or remove the super key from others shorcuts.
 
+### CachyOS
+
+- install xsel and related programs otherwise paperclip may not work properly.
+- use script center_window.sh to center the window. For other window aligment, use the default CachyOS shortcuts.
+
 ### Known issues
 
 - Not releasing the Ctrl and Super key after completing the shortcut will cause a spam of new lines.
